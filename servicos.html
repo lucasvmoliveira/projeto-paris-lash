@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .top-layout {
+            background-color: #252323;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .bottom-layout {
+            background-color: #252323;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #252323;
+            padding: 20px;
+        }
+
+        .service {
+            width: 250px;
+            padding: 20px;
+            margin: 10px;
+            border: 2px solid #e91e63;
+            border-radius: 10px;
+            text-align: center;
+            background-color: #fff;
+        }
+
+        .service-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #e91e63;
+            margin: 0 auto 10px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .service-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .service-description {
+            display: none;
+            text-align: left;
+        }
+
+        .show-details-button {
+            background-color: #e91e63;
+            color: #fff;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .show-details-button:focus {
+            outline: none;
+        }
+
+        .show-details-button.open {
+            background-color: #555;
+        }
+
+        .home-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+
+        .home-button a {
+            display: inline-block;
+            padding: 10px 15px;
+            color: #e91e63;
+            background-color: #0b0b0b;
+            text-decoration: none;
+            border-radius: 100px;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .whatsapp-icon {
+            animation: spin 10s linear infinite; /* A animação girará por 10 segundos de forma linear e infinita */
+        }
+    </style>
+</head>
+<body>
+    <div class="top-layout">
+        <div class="home-button">
+            <a href="index.html">Home</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="service">
+            <div class="service-image" style="background-image: url('https://i.postimg.cc/cJ8BsF8c/Brasileiro.webp');"></div>
+            <h2 class="service-title">Brasileiro</h2>
+            <p class="service-description">O volume brasileiro Trata-se de uma técnica ou efeito de extensão de cílios que tem como foco o volume. Nela é utilizado fios em formato de Y que são compostos por 4 fios entrelaçados e prensados em uma única base.
+
+                A técnica é uma alternativa interessante para a cliente que quer um pouco mais de volume do que a extensão fio a fio clássica, pois ela poderá oferecer um efeito mais volumoso garantindo um resultado bonito e marcante, com um pouco mais de textura.
+                </p>
+            <button class="show-details-button">Detalhes</button>
+        </div>
+
+        <div class="service">
+            <div class="service-image" style="background-image: url('https://i.postimg.cc/Jz624gDS/volume-russo.jpg');"></div>
+            <h2 class="service-title">Volume Russo</h2>
+            <p class="service-description">O volume russo é uma técnica avançada de extensão de cílios utiliza fios ultrafinos, criando leques personalizados que proporcionam um olhar exuberante e expressivo. Adeus aos cílios comuns de um fio só!
+
+                Com fios sintéticos leves e delicadamente aplicados à mão por nossos especialistas qualificados, você obterá um visual duradouro, seguro e deslumbrante. Escolha entre um estilo natural ou um olhar dramático e intenso - a escolha é sua!
+                
+                Perfeito para clientes com cílios mais finos, nosso Volume Russo preenche cada espaço, proporcionando um resultado uniforme e encantador. Tenha a certeza de que você estará em mãos experientes para realçar sua beleza natural e elevar sua autoconfiança.
+                
+                Não perca mais tempo com máscaras de cílios que nunca alcançam o efeito desejado. Experimente o Volume Russo e surpreenda-se com a diferença</p>
+            <button class="show-details-button">Detalhes</button>
+        </div>
+
+        <div class="service">
+            <div class="service-image" style="background-image: url('https://i.postimg.cc/Xv0kYwcS/fio-a-fio-2.jpg');"></div>
+            <h2 class="service-title">Fio a Fio</h2>
+            <p class="service-description">Descubra os cílios dos seus sonhos com a técnica fio a fio! Realce seu olhar com cílios mais longos, volumosos e naturais. Nosso procedimento minucioso e delicado garante um visual deslumbrante e conforto aos olhos.
+
+                Diferente dos cílios postiços tradicionais, as extensões fio a fio tem efeito duradouro, destacando seu olhar por muito mais tempo. Personalize o comprimento e curvatura dos cílios conforme sua preferência, deixando-os perfeitos para você!
+                
+                Nossos profissionais especializados garantem um resultado seguro e sofisticado, destacando sua beleza de forma elegante. Diga adeus à máscara de cílios e conquiste cílios incríveis no seu dia a dia!
+                
+                Experimente a técnica de cílios fio a fio e desfrute de um olhar magnífico que impressiona em qualquer ocasião. Agende já sua transformação e tenha os cílios dos seus sonhos!</p>
+            <button class="show-details-button">Detalhes</button>
+        </div>
+
+        <div class="service">
+            <div class="service-image" style="background-image: url('https://i.postimg.cc/13RWQxPh/hibrido.webp');"></div>
+            <h2 class="service-title">Híbrido</h2>
+            <p class="service-description">A extensão de cílios Volume Híbrido é um tipo de alongamento que utiliza fios sintéticos individuais e em leque, que são colados um a um sobre os seus cílios naturais. Essa mistura de fios garante um efeito mais texturizado e harmonioso aos seus cílios, além de uma aplicação mais personalizada.
+
+                O resultado é um olhar elegante e sofisticado, ideal para quem quer destacar os olhos e valorizar a maquiagem. A extensão de cílios Volume Híbrido é diferente da extensão fio a fio clássica, que usa apenas fios simples e proporciona um efeito mais discreto. Também é diferente da extensão de cílios Volume Russo, que usa apenas fios em leque e proporciona um efeito mais denso.</p>
+            <button class="show-details-button">Detalhes</button>
+        </div>
+
+        <div class="service">
+            <div class="service-image" style="background-image: url('images/volume-paris.jpg');"></div>
+            <h2 class="service-title">Volume Paris</h2>
+            <p class="service-description">Detalhes sobre o serviço Volume Paris...</p>
+            <button class="show-details-button">Detalhes</button>
+        </div>
+
+        <div class="service">
+            <div class="service-image" style="background-image: url('https://i.postimg.cc/wMCdr6np/design-de-sobrancelhas-com-henna.png');"></div>
+            <h2 class="service-title">Design com Hena</h2>
+            <p class="service-description">Descubra a transformação que o Design de Sobrancelha com Henna pode fazer por você! Nossa técnica especializada remodela suas sobrancelhas com perfeição, valorizando seu olhar e realçando a beleza única do seu rosto.
+
+                Diga adeus às falhas indesejadas! A Henna entra em cena, corrigindo pequenas imperfeições, alongando e destacando suas sobrancelhas de forma natural e deslumbrante.
+                
+                Seja a protagonista da sua história com sobrancelhas impecáveis, simétricas e equilibradas. Nosso time de especialistas utiliza as melhores técnicas com cera ou pinça, garantindo um resultado excepcional e duradouro.
+                
+                Não espere mais para conquistar o olhar que sempre desejou! Agende agora mesmo seu Design de Sobrancelha com Henna e encante-se com o poder que uma sobrancelha perfeita pode trazer para sua autoestima. Venha descobrir o segredo de um visual magnífico e prepare-se para receber elogios por onde passar!</p>
+            <button class="show-details-button">Detalhes</button>
+        </div>
+    </div>
+
+    <script>
+        const showDetailsButtons = document.querySelectorAll('.show-details-button');
+
+        showDetailsButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const serviceDescription = button.previousElementSibling;
+
+                if (serviceDescription.style.display === 'none') {
+                    serviceDescription.style.display = 'block';
+                    button.classList.add('open');
+                } else {
+                    serviceDescription.style.display = 'none';
+                    button.classList.remove('open');
+                }
+            });
+        });
+    </script>
+
+    <div class="bottom-layout">
+        <a href="https://wa.me/5511960759096?text=Ol%C3%A1%2C+quero+saber+mais+sobre+os+servi%C3%A7os+da+Paris+Lash." target="_blank">
+            <img class="whatsapp-icon" src="https://i.postimg.cc/VLMVWyBX/wpp-transformed-transformed.png" alt="WhatsApp Icon" style="width: 80px; height: 80px;">
+        </a>
+        <p style="color: #fff; font-size: 16px;">Clique  aqui 👆🏻 Solicite seu orçamento pelo WhatsApp!</p>
+    </div>
+    
+</body>
+</html>
